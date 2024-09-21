@@ -1,0 +1,277 @@
+*{
+    margin: auto;
+    padding: auto;
+   background-color:  rgb(3, 0, 13);
+    
+}
+
+bar{
+  
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    background-color: rgb(3, 0, 13);
+}
+div{
+    margin: 5%;
+    background-color: rgb(3, 0, 13);
+    text-align: start;
+    color: aliceblue;
+
+    
+
+
+}
+img{
+    height: 20em;
+    width: 20em;
+    border:1px  solid white;
+    border-radius:  50% 10% 50% 10% ;
+    box-shadow: 16px 10px 50px rgb(111, 2, 2);
+    
+}
+p{
+   margin-top: 10px;
+   text-overflow: initial;
+}
+h1{
+    color:red
+}
+.logo h1{
+    color: aliceblue;
+}
+
+
+
+.button{
+    background-color: rgb(3, 0, 13);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+button{
+    padding: 2vh;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red ;
+    border: 4px solid red;
+    border-radius: 20em;
+    transition: 0.5ms;
+    
+    
+}
+button:hover{
+    padding: 2vh;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255) ;
+    background-color: red;
+    color:white;
+    border-radius: 21em;
+    border: 4px solid rgb(3, 0, 13);
+    opacity: 100%;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 0, 13);
+    position:relative;
+    height: 100;
+    
+    padding-left: 1em;
+    padding-right: 3em;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s ease;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+
+
+
+ 
+
+
+
+
+
+/* card css*/
+
+.section-projects {
+    margin-top: 60px;
+}
+.proimg{
+    
+    height: 200px;
+    width: 300px;
+    padding: 1px;
+    border:2px solid #ffffff;
+    border-radius: 10px;
+    
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    
+    
+    border-radius: 2em;
+    
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #ffffff;
+    margin-top: 20px;
+    padding:1px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        flex: 1 1 calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+
+    .profile-photo {
+        width: 100px;
+    }
+
+    .button button {
+        width: 100%;
+    }
+}
+
+.section-skills{
+
+    margin-top: 30px;
+}
+.skills-title{
+    
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.skills-description{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    color: #555;
+
+}
+.skills{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 50px;
+padding: 1em;
+}
+.skills i{
+    padding: 4vh;
+}
+
+
+footer {
+   
+    
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.footer-logo, .footer-social, .footer-contact {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-logo h2, .footer-contact h3, .footer-social h3 {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #b40e0e;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 10px;
+}
+

@@ -1,0 +1,81 @@
+
+*{
+
+    background-color: rgb(1, 0, 6);
+}
+
+.logoa h1{
+    color: rgb(255, 255, 255);
+}
+.navbara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(1, 0, 6);
+    position:relative;
+    height: 100;
+    padding-left: 1em;
+    padding-right: 3em;
+    
+}
+
+.nav-linksa {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-linksa li {
+    display: inline;
+}
+
+.nav-linksa a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s ease;
+}
+
+.nav-linksa a:hover {
+    color: red;
+}
+.carda{
+    margin-top: 10%;
+    width: 70%;
+    background-color: rgb(1, 0, 6);
+    display: flex;
+    gap: 10px;;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%; 
+    margin-right: 10%;  
+}
+
+.abouta{
+    color: #fff;
+   padding: 4px;
+
+    border-radius:1px;
+
+}
+h1{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
